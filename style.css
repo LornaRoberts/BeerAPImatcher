@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    background-color: pink;
+}
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+form{
+    padding: 50px;
+}
+
+.random{
+  margin: 50px;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+}
+
+.submit{
+    margin: 20px;
+}
