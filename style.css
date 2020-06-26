@@ -9,38 +9,70 @@ html, body {
     overflow-x: hidden;
     overflow-y: hidden;
     background-attachment: fixed;
-  background-position: center;
-}
-
-.container{
-    
+    background-position: center;
+  }
+  .container {
     text-align: center;
     background-color: rgba(128, 128, 128, 0.6);
-   width: 80vw;
-   margin-top: 10vh;
-   margin-bottom: 10vh;
-   
-}
-
-.interaction{
+    width: 80vw;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+  }
+  .interaction {
     text-align: center;
     display: block;
-}
-
-
-form{
+  }
+  .results {
+    color: black;
+    padding: 20px;
+  }
+  form {
     padding: 10px;
-}
-
-.random{
-  margin: 10px;
-}
-
-h1{
+  }
+  .random {
+    margin: 10px;
+  }
+  h1 {
     font-family: 'Lobster', cursive;
-}
-
-.submit{
-    margin: 20px;
-}
-
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  .submit {
+    margin: 10px;
+  }
+  #complete {
+    color: black;
+  }
+  #bottle {
+    height: 100px;
+  }
+  @media only screen and (min-width: 1000px) {
+    h1 {
+      font-size: 60px;
+    }
+    h2 {
+      font-size: 30px;
+    }
+    .container {
+      font-size: 2em;
+    }
+    #bottle {
+      height: 200px;
+    }
+  }
+  @media only screen and (min-width: 2000px) {
+    h1 {
+      font-size: 100px;
+    }
+    h2 {
+      font-size: 60px;
+    }
+    .container {
+      font-size: 3em;
+    }
+    #bottle {
+      height: 400px;
+    }
+  }
